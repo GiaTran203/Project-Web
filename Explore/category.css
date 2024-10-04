@@ -1,11 +1,28 @@
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+h2{
+    margin-left: 5%;     
 }
-
-.container {
+.button2 {
+    background-color: #f2f796;
+    color: rgb(50, 7, 7);
+    padding: 13px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    opacity: 0.9;
+    position: absolute;right: 10px;top: 5px;
+    
+}
+.button2:hover {
+    opacity:1;
+}
+.button2 a{
+    color: #040404;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+.container1 {
     width: 80%;
     margin: 20px auto;
     background: #fff;

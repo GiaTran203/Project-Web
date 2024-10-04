@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="myy.css">
+    <link rel="stylesheet" href="../Header/menu.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Explore/comment.css">
+</head>
+<body>
+    <header>
+        <div id="menu">
+            <ul>
+                <li><img src="###">Let we cook!</li>
+                <li><a href="../Header/home.html">Home</a></li>
+                <li>
+                    <a href="../Header/explore.html">Explore</a>
+                    <ul class="sub-menu">
+                        <li><a href="../Explore/recipe.html">Recipes</a></li>
+                        <li><a href="../Explore/category.html">Categories</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="find"></div>
+            <div class="container">
+                <input type="search" id="search" placeholder="Search..."/>
+                <button class="icon"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <button class="button button2"><a href="../User/profile.html">User</a></button>
+    </header>
+    <br/><br/>
+        
+    <div class="container1">
+        <div class="recipe-title">
+            <img src="../images/spageti.jpg" width="120px">
+            <h2 id="recipe-name">Spaghetti Carbonara</h2>            
+            <button class="favorite-btn">Add to Favorites</button>
+        </div>
+        <div class="recipe-info">
+            <h3>Ingredients</h3>
+            <ul id="ingredients-list">
+                <li>200g Spaghetti</li>
+                <li>100g Pancetta</li>
+                <li>2 Large Eggs</li>
+                <li>50g Pecorino Cheese</li>
+                <li>Salt and Pepper</li>
+            </ul>
+            <h3>Instructions</h3>
+            <ol id="instructions-list">
+                <li>Cook the spaghetti in salted boiling water until al dente.</li>
+                <li>In a separate pan, fry the pancetta until crispy.</li>
+                <li>Beat the eggs in a bowl and mix in the cheese.</li>
+                <li>Drain the spaghetti, reserving some pasta water, and mix with pancetta.</li>
+                <li>Remove from heat and quickly stir in the egg mixture, adding pasta water as needed.</li>
+                <li>Season with salt and pepper, and serve immediately.</li>
+            </ol>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="comments-section">
+            <h2>User Comments</h2>
+            <div class="comment">
+                <p><strong>Jane Doe:</strong> This recipe was amazing! My family loved it.</p>
+            </div>
+            <div class="comment">
+                <p><strong>John Smith:</strong> I added some garlic, and it turned out great!</p>
+            </div>
+            <div class="comment">
+                <p><strong>Alice Johnson:</strong> So easy to make! Thanks for sharing.</p>
+            </div>
+        </div>
+
+        <div class="add-comment">
+            <h3>Add a Comment</h3>
+            <form id="comment-form">
+                <textarea placeholder="Write your comment here..." rows="4" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <br><br><br><br><hr>
+    <footer>
+        <p style="text-align: center;">&copy; 2024 Let we cook!. All rights reserved.</p>
+    </footer>
+</body>
+</html>

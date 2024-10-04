@@ -1,0 +1,24 @@
+.box1{
+    margin:10px 10px 10px 10px;
+    width: 170px; height: 150px;
+    border: 4px solid #dba850;
+    border-radius: 5px;
+    text-align: center;
+    position:relative;
+    display: inline-block;
+
+}
+.box1 img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+h2{
+    margin-left: 5%;     
+}
+p{
+    margin-top: 5px;
+    margin-left: 5%;
+}
+

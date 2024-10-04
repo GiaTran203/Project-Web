@@ -5,44 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipe Categories</title>
     <link rel="stylesheet" href="category.css">
-    <link rel="stylesheet" href="../Home/menu.css">
+    <link rel="stylesheet" href="../Header/menu.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-    <div id="menu">
-        <ul>
-            <li><a href="../Home/home.html">Home</a></li>
-            <li>
-                <a href="../Home/explore.html">Explore</a>
-                <ul class="sub-menu">
-                    <li><a href="recipe.html">Recipes</a></li>
-                    <li><a class="active" href="category.html">Categories</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Contact us</a></li>            
-        </ul>
-    </div><br/><br/><br/>
     <header>
-        <h1>Recipe Categories</h1>
+        <div id="menu">
+            <ul>
+                <li><img src="###">Let we cook!</li>
+                <li><a href="../Header/home.html">Home</a></li>
+                <li>
+                    <a href="../Header/explore.html">Explore</a>
+                    <ul class="sub-menu">
+                        <li><a href="recipe.html">Recipes</a></li>
+                        <li><a class="active" href="category.html">Categories</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="find"></div>
+            <div class="container">
+                <input type="search" id="search" placeholder="Search..."/>
+                <button class="icon"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <button class="button button2"><a href="../User/profile.html">User</a></button>
     </header>
-    <div class="container">
+    <br/><br/><br/>    
+        <h2>Recipe Categories</h2>    
+    <div class="container1">
         <div class="category">
-            <h2>Italian</h2>
+            <h3>Italian</h3>
             <ul class="recipe-list">
-                <li><a href="recipe.html">Spaghetti Carbonara</a></li>
+                <li><a href="../demo/myy.html">Spaghetti Carbonara</a></li>
                 <li><a href="recipe.html">Margherita Pizza</a></li>
                 <li><a href="recipe.html">Lasagna</a></li>
             </ul>
         </div>
         <div class="category">
-            <h2>Mexican</h2>
+            <h3>VietNam</h3>
+            <ul class="recipe-list">
+                <li><a href="recipe.html">Pho</a></li>
+                <li><a href="recipe.html">My Quang</a></li>
+                <li><a href="recipe.html">Bun Bo Hue</a></li>
+            </ul>
+        </div>
+        <div class="category">
+            <h3>Mexican</h3>
             <ul class="recipe-list">
                 <li><a href="recipe.html">Tacos al Pastor</a></li>
                 <li><a href="recipe.html">Guacamole</a></li>
                 <li><a href="recipe.html">Chiles en Nogada</a></li>
             </ul>
         </div>
+    
         <div class="category">
-            <h2>Indian</h2>
+            <h3>Indian</h3>
             <ul class="recipe-list">
                 <li><a href="recipe.html">Butter Chicken</a></li>
                 <li><a href="recipe.html">Paneer Tikka</a></li>
@@ -50,5 +69,10 @@
             </ul>
         </div>
     </div>
+
+
+    <footer>
+        <p>&copy; 2024 Let we cook!. All rights reserved.</p>
+    </footer>
 </body>
 </html>
